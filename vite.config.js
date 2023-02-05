@@ -7,14 +7,14 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: "prompt",
+      registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
       devOptions: {
         enabled: true,
       },
       manifest: {
-        name: "websitename",
-        short_name: "websitename",
+        name: "fancy pwa",
+        short_name: "fancy pwa",
         description: "Website description(Could be same with index.html file)",
         theme_color: "#ffffff",
         start_url: "/",
@@ -49,4 +49,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/pwa_1/",
 });
