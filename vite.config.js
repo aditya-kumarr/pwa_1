@@ -17,7 +17,7 @@ export default defineConfig({
         short_name: "fancy pwa",
         description: "Website description(Could be same with index.html file)",
         theme_color: "#ffffff",
-        start_url: "https://aditya-kumarr.github.io/",
+        start_url: "https://aditya-kumarr.github.io/pwa_1/",
         scope: "https://aditya-kumarr.github.io/",
         icons: [
           {
